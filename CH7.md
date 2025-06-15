@@ -10,22 +10,22 @@
     - 非无线网络可能也需要处理移动性问题
     - 切换：移动用户更换为其提供有线网络连接的基站
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/058328d2-6ddd-4cf0-bccf-d1a856b30603.png)
+![](/Images/058328d2-6ddd-4cf0-bccf-d1a856b30603.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/df4f904b-abe1-419d-9684-7ea692bf538a.png)
+![](/Images/df4f904b-abe1-419d-9684-7ea692bf538a.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/6de944a3-aeec-433e-9c2d-cc2bfd2eee06.png)
+![](/Images/6de944a3-aeec-433e-9c2d-cc2bfd2eee06.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/89de3c48-841a-4398-a40b-e6c2200e0440.png)
+![](/Images/89de3c48-841a-4398-a40b-e6c2200e0440.png)
 
 ### 两种工作模式
 
 - 基础设施模式：基站将移动设备连接至有线网络
 - 自组织模式：无线主机自行组织通信
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/aa82a951-46e6-44f1-8126-4b25dadfa4c4.png)
+![](/Images/aa82a951-46e6-44f1-8126-4b25dadfa4c4.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/b0f820aa-ba24-4d83-bfdd-bb7714a2541f.png)
+![](/Images/b0f820aa-ba24-4d83-bfdd-bb7714a2541f.png)
 
 ### 自组织网络
 
@@ -34,7 +34,7 @@
 
 ### 无线网络分类
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/e68624dc-f280-4a13-9b72-f5160d184cba.png)
+![](/Images/e68624dc-f280-4a13-9b72-f5160d184cba.png)
 
 ### 无线链路特性
 
@@ -71,7 +71,7 @@
 - 信号从表面反射并相互干扰
 - 自干扰
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/60b83a79-2f23-43de-892f-bf2def9c959a.png)
+![](/Images/60b83a79-2f23-43de-892f-bf2def9c959a.png)
 
 （3）来自其他源的干扰：标准化无线网络频率（如 2.4 GHz）会被其他设备（如电话）共享；设备（电机）也会产生干扰
 
@@ -91,9 +91,9 @@
 
 ## WiFi - IEEE 802.11 Wireless LANs
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/d1262812-e1fa-4110-9bcf-0bc3e9fa9b14.png)
+![](/Images/d1262812-e1fa-4110-9bcf-0bc3e9fa9b14.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/390aaa19-590e-4c76-8af0-08f3d0c7944a.png)
+![](/Images/390aaa19-590e-4c76-8af0-08f3d0c7944a.png)
 
 ### IEEE 802.11 架构
 
@@ -118,7 +118,7 @@
 - 分布式系统（Distribution System, DS）：
   - 用于互联一组 BSS 和集成局域网以形成 ESS 的系统
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/1d884e72-12f8-4172-99dd-352710106765.png)
+![](/Images/1d884e72-12f8-4172-99dd-352710106765.png)
 
 ### 802.11：信道与关联
 
@@ -144,7 +144,7 @@
   - 发送关联请求帧：H1 向选定的 AP 发送
   - 发送关联响应帧：选定的 AP 向 H1 发送
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/93fa9d5a-589b-4aaa-ad1b-dc6968e09635.png)
+![](/Images/93fa9d5a-589b-4aaa-ad1b-dc6968e09635.png)
 
 ### IEEE 802.11：多路访问
 
@@ -166,7 +166,7 @@
   - B 和 C 可以相互通信
   - A 和 C 无法相互通信，却在 B 处产生干扰
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/e0ab9f8b-72bc-4439-a266-c414c1851bfa.png)
+![](/Images/e0ab9f8b-72bc-4439-a266-c414c1851bfa.png)
 
 ### 4 帧交换
 
@@ -181,11 +181,11 @@
   - CTS 帧会通知所有处于接收方覆盖范围内的站点
 - RTS/CTS 交换是一项必备功能，但也可禁用
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/2c3cc1da-3a70-428f-b4fc-8ba6f8f73ed6.png)
+![](/Images/2c3cc1da-3a70-428f-b4fc-8ba6f8f73ed6.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/88d152b0-1ef0-48fe-963d-93061810123d.png)
+![](/Images/88d152b0-1ef0-48fe-963d-93061810123d.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/a9ec04a9-65ec-4265-b19d-1216a1cf7bc8.png)
+![](/Images/a9ec04a9-65ec-4265-b19d-1216a1cf7bc8.png)
 
 ---
 
@@ -203,7 +203,7 @@
   - 最长的帧间间隔
   - 用于其他竞争接入的异步帧
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/59f3f865-b61d-4f00-8ed8-cd9a0ad1b0a0.png)
+![](/Images/59f3f865-b61d-4f00-8ed8-cd9a0ad1b0a0.png)
 
 ### SIFS 的使用
 
@@ -226,7 +226,7 @@
   - 使用 SIFS 的帧优先级高于 PCF 轮询
 - DIFS 用于所有普通异步流量
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/f52da2ec-82d2-4aca-b249-4f189cd9237a.png)
+![](/Images/f52da2ec-82d2-4aca-b249-4f189cd9237a.png)
 
 ### 点协调功能（PCF）
 
@@ -246,7 +246,7 @@
 帧时间的前一部分,由点协调器轮询,在超帧时间的后一部分,允许异步通
 信量争用接入。
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/204f395d-152c-4dda-a1bf-b28330a97b17.png)
+![](/Images/204f395d-152c-4dda-a1bf-b28330a97b17.png)
 
 ### 分布式协调功能
 
@@ -279,13 +279,13 @@
 - 若正确接收帧
   - 等待 SIFS 后返回 ACK（因隐藏终端问题需 ACK 确认）
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/0cfe95d1-cba0-4b98-a40d-f7a327f07f2d.png)
+![](/Images/0cfe95d1-cba0-4b98-a40d-f7a327f07f2d.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/5b9a7ca1-307e-4a0c-bd87-4475a005ce06.png)
+![](/Images/5b9a7ca1-307e-4a0c-bd87-4475a005ce06.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/73129ac2-5a78-45c0-a3d6-9758878fdd06.png)
+![](/Images/73129ac2-5a78-45c0-a3d6-9758878fdd06.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/bcb80584-5250-4457-8a35-e41d86d80ce2.png)
+![](/Images/bcb80584-5250-4457-8a35-e41d86d80ce2.png)
 
 ### 802.11：同一子网内的移动性
 
@@ -293,7 +293,7 @@
 - 交换机：H1 与哪个接入点（AP）关联？
   - 自学习功能：交换机将接收来自 H1 的帧，并 “记住” 可通过哪个交换机端口到达 H1
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/63fcc8f7-5db9-4dfb-b348-d399623f6eb8.png)
+![](/Images/63fcc8f7-5db9-4dfb-b348-d399623f6eb8.png)
 
 802.11：高级功能
 速率自适应
@@ -312,7 +312,7 @@
 1. 当节点远离基站时，信噪比下降，误码率上升
 2. 当误码率过高时，切换至更低的传输速率，以获得更低的误码率
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/e8c9e139-340a-4cd5-b8fd-99acfb1efd8f.png)
+![](/Images/e8c9e139-340a-4cd5-b8fd-99acfb1efd8f.png)
 
 ### 电源管理
 
@@ -326,7 +326,7 @@
 
 ## 蜂窝网络
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/0d2d6658-eb39-4618-a001-5a30f31b855b.png)
+![](/Images/0d2d6658-eb39-4618-a001-5a30f31b855b.png)
 
 ### 蜂窝网络：第一跳
 
@@ -336,14 +336,14 @@
 ❖ 码分多址（CDMA）：
 码分多址接入技术
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/5c830367-a331-4e8f-94da-0c241be7b705.png)
+![](/Images/5c830367-a331-4e8f-94da-0c241be7b705.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/703ab0cf-91ad-4c73-843b-360300c23bef.png)
+![](/Images/703ab0cf-91ad-4c73-843b-360300c23bef.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/3abc7b2b-e1f9-4f36-a925-77a70b758531.png)
+![](/Images/3abc7b2b-e1f9-4f36-a925-77a70b758531.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/4f61e705-c377-4f15-b5fd-ad9d8be3a164.png)
+![](/Images/4f61e705-c377-4f15-b5fd-ad9d8be3a164.png)
 
 ---
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/fe2b49bb-dcdb-4485-b569-f85044a3e618.png)
+![](/Images/fe2b49bb-dcdb-4485-b569-f85044a3e618.png)
