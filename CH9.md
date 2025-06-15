@@ -1,6 +1,6 @@
 # CH9
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/395f959c-6a68-45fe-867b-cdccc1a8bd7f.png)
+![](/Images/395f959c-6a68-45fe-867b-cdccc1a8bd7f.png)
 
 ---
 
@@ -18,7 +18,7 @@
 ▪ MP3：96、128、160 千比特 / 秒
 ▪ 互联网电话：5.3 千比特 / 秒及以上
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/43081a69-392a-4d15-a7ec-01f1410c2a03.png)
+![](/Images/43081a69-392a-4d15-a7ec-01f1410c2a03.png)
 
 ### 多媒体：视频
 
@@ -36,7 +36,7 @@
 视频：以恒定速率显示的图像序列
 ▪ 例如 24 帧 / 秒
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/1e1b444a-0762-43ad-b373-995721726274.png)
+![](/Images/1e1b444a-0762-43ad-b373-995721726274.png)
 
 ### 三种应用类型
 
@@ -50,7 +50,7 @@
 ❖ 流式直播音频、视频
 ▪ 例如：体育赛事直播（足球）
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/3468470c-1fed-4358-b69e-30b5b936f19d.png)
+![](/Images/3468470c-1fed-4358-b69e-30b5b936f19d.png)
 
 ### 流式存储视频：挑战
 
@@ -65,9 +65,9 @@
 ❖ 客户端缓冲与播放延迟：
 用于补偿网络引入的延迟及延迟抖动
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/daf881d0-76db-4d51-bd4b-b56d044530f5.png)
+![](/Images/daf881d0-76db-4d51-bd4b-b56d044530f5.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/924890d6-111b-46f8-bdae-ceb6563e484f.png)
+![](/Images/924890d6-111b-46f8-bdae-ceb6563e484f.png)
 
 ### 客户端缓冲与播放
 
@@ -75,7 +75,7 @@
 2. 于时间 tp 开始播放
 3. 缓冲区填充水平随时间变化，原因是填充速率 x (t) 波动而播放速率 r 保持恒定
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/beb8a9e6-8d59-4b9c-935f-7668f64da874.png)
+![](/Images/beb8a9e6-8d59-4b9c-935f-7668f64da874.png)
 
 播放缓冲：平均填充速率（x）与播放速率（r）的关系：
 
@@ -83,7 +83,7 @@
 - 若 x > r：只要初始播放延迟足够大以吸收 x (t) 的波动，缓冲区就不会清空
 - 初始播放延迟的权衡：延迟越大，缓冲区耗尽的可能性越低，但用户开始观看前的等待时间也越长
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/abd3c6cf-871e-4083-a8af-5b516238d4fe.png)
+![](/Images/abd3c6cf-871e-4083-a8af-5b516238d4fe.png)
 
 ### 流式多媒体：UDP
 
@@ -103,7 +103,7 @@
 - 需更大的播放延迟：用于平滑 TCP 的传输速率
 -  HTTP/TCP 更易穿过防火墙
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/ba507e7d-6fec-4712-bb4e-c4dd9d270d73.png)
+![](/Images/ba507e7d-6fec-4712-bb4e-c4dd9d270d73.png)
 
 ### 流式多媒体：DASH
 
@@ -159,7 +159,7 @@
   - 支持电脑对电脑、电脑对电话、电话对电脑的通信
 - 采用专有应用层协议
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/860b65a8-34cd-483f-b12b-6c67aea0004f.png)
+![](/Images/860b65a8-34cd-483f-b12b-6c67aea0004f.png)
 
 ### Skype：拨打电话
 
@@ -186,13 +186,13 @@
 
 ## RTP（实时传输协议）/RTCP（实时传输控制协议）/RTSP（实时流协议）/SIP（会话初始协议）
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/3e4b3a3f-df03-4412-b7f3-de644f65d7f7.png)
+![](/Images/3e4b3a3f-df03-4412-b7f3-de644f65d7f7.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/db4e9da3-2d5a-430c-88c4-17d44e1316c1.png)
+![](/Images/db4e9da3-2d5a-430c-88c4-17d44e1316c1.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/d4e8ef59-2855-4888-a70a-4f05b57193d5.png)
+![](/Images/d4e8ef59-2855-4888-a70a-4f05b57193d5.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/597cd38b-fd39-4bee-bfff-6b97779fc2ce.png)
+![](/Images/597cd38b-fd39-4bee-bfff-6b97779fc2ce.png)
 
 ### RTP 如何工作
 
@@ -222,7 +222,7 @@
 - SSRC 字段（32 位）：标识 RTP 流的来源。
 - RTP 会话中的每个流都有唯一的 SSRC。
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/5d048395-4228-49f2-a654-c7288e9b565c.png)
+![](/Images/5d048395-4228-49f2-a654-c7288e9b565c.png)
 
 ### 实时传输控制协议（RTCP）
 
@@ -267,7 +267,7 @@
 - 浏览器启动播放器
 - 播放器建立 RTSP 控制连接及与流媒体服务器的数据连接
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/34cc2b35-9bf7-4914-9fe5-eb1b5e617ad5.png)
+![](/Images/34cc2b35-9bf7-4914-9fe5-eb1b5e617ad5.png)
 
 ### 会话初始协议（SIP）
 
@@ -312,7 +312,7 @@
 - SIP 消息可通过 TCP 或 UDP 发送，此处通过 RTP/UDP 发送
 - SIP 默认端口号为 5060
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/a179e5da-01fd-43bf-bfd4-b9c5955b2639.png)
+![](/Images/a179e5da-01fd-43bf-bfd4-b9c5955b2639.png)
 
 ### 其他可能的回复
 
@@ -322,9 +322,9 @@
   - 鲍勃回复 “606 不可接受”，并列出其支持的编码器
   - 随后爱丽丝可发送新的 “INVITE” 消息，通告不同的编码器
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/f91a6e48-9251-4f38-88bb-efc6a57aec1f.png)
+![](/Images/f91a6e48-9251-4f38-88bb-efc6a57aec1f.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/627157ea-61cc-4ba8-b6a0-a59c197d68a3.png)
+![](/Images/627157ea-61cc-4ba8-b6a0-a59c197d68a3.png)
 
 ### 寻找被叫方
 
@@ -335,7 +335,7 @@
   - 重定向服务器（Redirect）：将通往被叫方的下一跳地址发送回主叫方
   - 代理服务器（Proxy）：决定下一跳并转发请求（充当经纪人）
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/54e50849-0ed1-411d-a513-d44f37f68ba9.png)
+![](/Images/54e50849-0ed1-411d-a513-d44f37f68ba9.png)
 
 ### 一个更复杂的示例
 
@@ -362,9 +362,9 @@
   - 在路由器中添加流量控制功能
   - 提供请求 QoS 的方法
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/0ea196f2-d8d9-40c8-8412-7b3de31629e5.png)
+![](/Images/0ea196f2-d8d9-40c8-8412-7b3de31629e5.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/5f0548e7-8f48-43b0-82f5-0209152e0ba0.png)
+![](/Images/5f0548e7-8f48-43b0-82f5-0209152e0ba0.png)
 
 ### 两种服务质量框架
 
@@ -378,7 +378,7 @@
 - 由源和目标 IP 地址、端口号、协议类型（TCP 或 UDP）标识
 - 单向传输，可用于组播
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/5ad892eb-eb4b-490d-8839-ae0136dc2382.png)
+![](/Images/5ad892eb-eb4b-490d-8839-ae0136dc2382.png)
 
 ### 综合服务架构功能
 
@@ -411,7 +411,7 @@
   - 需要类似虚电路的机制
 - 对新会话的呼叫建立请求进行准入或拒绝
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/779b55bd-1584-4168-9d97-c6186a068753.png)
+![](/Images/779b55bd-1584-4168-9d97-c6186a068753.png)
 
 ### RSVP 预留流程
 
@@ -483,7 +483,7 @@
 ❖ 基于类别的标记：对不同类别的数据包进行不同标记
 ❖ 类内标记：将流中的合规部分与违规部分进行差异化标记
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/af086d3d-05c0-48ec-b313-caced6b89f02.png)
+![](/Images/af086d3d-05c0-48ec-b313-caced6b89f02.png)
 
 ---
 
@@ -505,19 +505,19 @@
 - 通过对数据速率进行平均，将突发流量整形为固定速率流量
 - 若桶已满，可能会丢弃数据包
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/750550a5-19a5-4586-8c4c-69754be8043d.png)
+![](/Images/750550a5-19a5-4586-8c4c-69754be8043d.png)
 
 - 当输入空闲时不进行任何操作
 - 数据包输出速率是固定的
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/fae750ae-07ad-4192-8669-1a522a5e5a58.png)
+![](/Images/fae750ae-07ad-4192-8669-1a522a5e5a58.png)
 
 ### 令牌桶算法
 
 - 利用令牌控制输出流量，允许输出速率变化
 - 令牌生成速率固定，当桶满时可能丢弃令牌（而非数据包）
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/751afe5e-f460-4f30-8761-d0faf5b2f58e.png)
+![](/Images/751afe5e-f460-4f30-8761-d0faf5b2f58e.png)
 
 将输入限制为指定的突发大小和平均速率
 
@@ -525,7 +525,7 @@
 - 除非桶已满，否则以 r 个令牌 / 秒的速率生成令牌
 - 在时长为 t 的时间间隔内：允许进入的数据包数量小于或等于（r×t + b）
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/f333f1dd-4537-42f6-a495-0505b16e0175.png)
+![](/Images/f333f1dd-4537-42f6-a495-0505b16e0175.png)
 
 ### 调度
 
@@ -539,15 +539,15 @@
 - 优先级丢弃：基于优先级丢弃 / 移除数据包
 - 随机丢弃：随机丢弃 / 移除数据包
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/49033b36-5c9a-44ee-b112-91bf033a2d00.png)
+![](/Images/49033b36-5c9a-44ee-b112-91bf033a2d00.png)
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/5a403902-2323-433f-a1c6-b7526c48000d.png)
+![](/Images/5a403902-2323-433f-a1c6-b7526c48000d.png)
 
 ### 用于服务质量（QoS）保障的流量监管与调度
 
 ❖ 令牌桶与加权公平队列（WFQ）结合，可提供有保障的延迟上限，即实现 QoS 保障！
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/cd641112-c344-4c41-b81c-6a364d338924.png)
+![](/Images/cd641112-c344-4c41-b81c-6a364d338924.png)
 
 ### 边缘路由器的功能
 
@@ -559,7 +559,7 @@
 - 整形器：使用令牌桶对数据包流进行整形
 - 丢弃器：若流量速率严重超过类别配置文件中指定的速率，则丢弃数据包
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/6240a210-8d52-420b-9003-823caddca0c5.png)
+![](/Images/6240a210-8d52-420b-9003-823caddca0c5.png)
 
 ### 内部路由器的功能
 
@@ -571,7 +571,7 @@
   - 每跳行为（PHB）：队列根据代码点给予优先处理
   - 数据包丢弃规则规定当缓冲区饱和时丢弃哪些数据包
 
-![](/home/guan/Desktop/计算机网络/Images/6.14/fdf89f6b-c211-4f6e-adf6-5029e62bec96.png)
+![](/Images/fdf89f6b-c211-4f6e-adf6-5029e62bec96.png)
 
 总结
 
